@@ -5,23 +5,20 @@
 
 }
 .container{
-    background-color: aqua;
+    background-color:#78C1F3;
 width: 100%;
-height: auto;
+text-align: center;
 display: flex;
-align-items: center;
 justify-content: center;
 }
-Main Menu section CSS code. Copy the code and paste in style.cssstyle.css
-/********** Main Menu CSS Starts **********/  
 nav {
      width: 100%;
      float: left;
-     background: #ff5722;
+     background: #9BE8D8;
      padding:15px 0px;
 }
  nav a {
-     color: #fff;
+     color:#E2F6CA;
      text-decoration:dotted;
      font-size: 17px;
      border-right: 1px solid #ffc3c3;
@@ -57,4 +54,93 @@ nav {
     line-height:35px;
     margin-left: 50px;
 
+} 
+.testimonial {
+    width: 380px;
+    float: left;
+    margin-right:10px;
+}
+.testimonial-text {
+    background:#F8FDCF;
+    padding: 20px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.testimonial-detail {
+    float:left;
+    margin-top:10px;
+}
+.testimonial-img {
+    width:10 px;
+
+}
+.testimonial-img img {
+    border-radius:10px;
+    width: 200px;
+}
+.testimonial-name {
+    margin-left:1px;
+    float:left;
+}
+.testimonial-name h5 {
+    font-size:18px;
+    margin-top:8px;
+}
+.gallery img{
+  margin: 10px;
+  padding: 10px 10px;
+}
+
+.gallery img {
+    width: 10%;
+}
+ 
+.placement img {
+    border:1px solid #dfdfdf;
+}
+
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #9d6565;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #af6666;
+}
+.footer img{
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    float: left;
+    align-items: left;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    
+}
+.heading{
+    color:rgb(230, 230, 162);
 }
